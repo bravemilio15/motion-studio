@@ -1,0 +1,13 @@
+node_modules/
+__pycache__/
+.env
+.DS_Store
+
+# Salidas de render (se regeneran)
+videos/*/out/
+videos/*/frames/
+*.tmp
+
+# Referencias pesadas: no versionar videos de referencia
+videos/*/refs/*.mp4
+videos/*/refs/*.mov
